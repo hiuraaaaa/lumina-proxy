@@ -1,5 +1,5 @@
 {
-  "name": "@lumina/proxy",
+  "name": "@lumina-npm/proxy",
   "version": "1.0.0",
   "description": "A lightweight proxy fetching library to bypass web restrictions — part of the Lumina ecosystem.",
   "main": "index.js",
