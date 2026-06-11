@@ -2,22 +2,20 @@
   <img src="https://cdn.nefusoft.cloud/0rK13.png" alt="Lumina Proxy" width="200"/>
 </div>
 
-<h1 align="center">✨ @lumina/proxy ✨</h1>
+<h1 align="center">✨ @lumina-npm/proxy ✨</h1>
 
 <p align="center">
   A lightweight proxy fetching library to bypass web restrictions — part of the Lumina ecosystem.
 </p>
 
 <p align="center">
-  <a href="https://www.npmjs.com/package/@lumina/proxy"><img src="https://img.shields.io/npm/v/@lumina/proxy.svg" alt="NPM Version"></a>
-  <a href="https://whatsapp.com/channel/0029VbAwMQz5a240uWauNY13">
-    <img src="https://img.shields.io/badge/Join-WhatsApp%20Channel-25D366?logo=whatsapp&logoColor=white" alt="WhatsApp Channel" />
-  </a>
+  <a href="https://www.npmjs.com/package/@lumina-npm/proxy"><img src="https://img.shields.io/npm/v/@lumina-npm/proxy.svg" alt="NPM Version"></a>
+
 </p>
 
 ---
 
-`@lumina/proxy` is a modern, promise-based HTTP proxy client. It routes your requests through a pool of web proxy servers to help you fetch content that would otherwise be inaccessible.
+`@lumina-npm/proxy` is a modern, promise-based HTTP proxy client. It routes your requests through a pool of web proxy servers to help you fetch content that would otherwise be inaccessible.
 
 ### 🚀 Features
 
@@ -29,7 +27,7 @@
 ### 📦 Installation
 
 ```bash
-npm install @lumina/proxy
+npm install @lumina-npm/proxy
 ```
 
 ### 📖 Usage
@@ -37,7 +35,7 @@ npm install @lumina/proxy
 #### 1. Basic (`proxy`)
 
 ```javascript
-import proxy from '@lumina/proxy';
+import proxy from '@lumina-npm/proxy';
 
 // Default: us1 server
 const html = await proxy('https://example.com');
@@ -49,7 +47,7 @@ const html2 = await proxy('https://example.com', { region: 'eu', serverId: 15 })
 #### 2. Client Factory (`createProxyClient`)
 
 ```javascript
-import { createProxyClient } from '@lumina/proxy';
+import { createProxyClient } from '@lumina-npm/proxy';
 
 const client = createProxyClient({ region: 'us', serverId: 7 });
 
@@ -62,7 +60,7 @@ const page2 = await client.fetch('https://example.com/page2');
 Handles server selection and retries automatically.
 
 ```javascript
-import proxy from '@lumina/proxy';
+import proxy from '@lumina-npm/proxy';
 
 const html = await proxy.auto('https://example.com', { region: 'us', retries: 3 });
 ```
@@ -70,7 +68,7 @@ const html = await proxy.auto('https://example.com', { region: 'us', retries: 3 
 #### 4. Drop-in Fetch Replacement (`createProxyFetch`)
 
 ```javascript
-import { createProxyFetch } from '@lumina/proxy';
+import { createProxyFetch } from '@lumina-npm/proxy';
 
 const proxyFetch = createProxyFetch({ region: 'us', serverId: 1 });
 
