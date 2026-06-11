@@ -1,7 +1,7 @@
 {
-  "name": "@elainaa/proxy",
-  "version": "1.0.5",
-  "description": "Sebuah library proxy ajaib untuk melewati batasan web dengan kekuatan sihir Elaina!",
+  "name": "@lumina/proxy",
+  "version": "1.0.0",
+  "description": "A lightweight proxy fetching library to bypass web restrictions — part of the Lumina ecosystem.",
   "main": "index.js",
   "type": "module",
   "scripts": {
@@ -9,20 +9,20 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/alip-jmbd/elainaa-proxy.git"
+    "url": "git+https://github.com/hiuraaaaa/lumina-proxy.git"
   },
   "keywords": [
     "proxy",
     "fetch",
     "scrape",
     "bypass",
-    "elaina",
+    "lumina",
     "nefu"
   ],
   "author": "Nefu",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/alip-jmbd/elainaa-proxy/issues"
+    "url": "https://github.com/hiuraaaaa/lumina-proxy/issues"
   },
-  "homepage": "https://github.com/alip-jmbd/elainaa-proxy#readme"
+  "homepage": "https://github.com/hiuraaaaa/lumina-proxy#readme"
 }
